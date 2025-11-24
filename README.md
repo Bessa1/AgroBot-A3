@@ -40,4 +40,22 @@ Ao abrir o terminal (no VS Code ou GitHub Codespaces), instale as dependências 
 ```bash
 pip install -r requirements.txt
 
+2️⃣ Terminal 1: Ligando o Cérebro (API)
+Neste primeiro terminal, inicie o servidor que vai receber os dados. Digite:
+
+Bash
+
+python app.py
+
+👀 Atenção: Aguarde aparecer a mensagem Running on http://.... Não feche este terminal! Ele precisa ficar rodando para a API funcionar.
+
+3️⃣ Terminal 2: Ligando os Sensores (Simulador)
+Agora, abra um Novo Terminal (clique no botão + ao lado da aba do terminal atual). Nesta nova janela, inicie o robô que envia os dados:
+
+Bash
+
+python simulador.py
+
+🎉 Pronto!No Terminal 2, você verá: 📡 Sensor enviando...No Terminal 1, você verá: 📥 Recebido...No Telegram, você receberá os alertas quando a temperatura for crítica.📊 Regras de Negócio (Lógica Agronômica)A inteligência do sistema cruza dados do bioma com a temperatura atual:CulturaCondição Crítica (Calor)Condição Crítica (Frio)Ação AutomáticaSoja / CaféTemp > 32°C e Umidade < 40%Temp < 10°C🚨 Alerta no TelegramOutras(Monitoramento Padrão)(Monitoramento Padrão)✅ Status Normal
+
 
