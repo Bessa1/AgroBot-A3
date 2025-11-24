@@ -65,7 +65,7 @@ python simulador.py
 * No Telegram, você receberá os alertas quando a temperatura for crítica.
 
   
-###📸 Demonstração
+### 📸 Demonstração
 
 ![demonstracao](https://github.com/user-attachments/assets/469d832e-86d8-4a73-8a40-9ac13585eb3c)
 
