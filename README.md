@@ -26,24 +26,18 @@ Este projeto foi desenvolvido utilizando práticas modernas de Engenharia de Sof
 O fluxo de dados segue o padrão de **API Gateway**:
 
 1.  **Sensores (Simulador):** Geram dados aleatórios de temperatura/umidade e enviam via POST.
-2.  **API (Servidor):** Recebe o JSON, aplica as Regras de Negócio (ex: Café não suporta > 30°C).
+2.  **API (Servidor):** Recebe o JSON, aplica as Regras de Negócio (ex: Café não suporta > 32°C).
 3.  **Bot (Telegram):** Se a regra for violada, o bot notifica o usuário final.
 
 ---
 
-## 🛠️ Como Executar o Projeto
+## 🛠️ Como Executar (Passo a Passo)
 
-Este projeto está configurado para rodar facilmente via **GitHub Codespaces** ou localmente.
+Para o sistema funcionar, precisamos rodar dois processos simultâneos: o **Servidor (API)** e o **Simulador (Sensores)**. Siga a ordem abaixo:
 
-### Pré-requisitos
-* Python 3.x instalado.
-* Conexão com a internet (para o Bot do Telegram).
-
-### Passo a Passo
-
-**1. Clone o repositório ou abra no Codespaces**
-
-**2. Instale as dependências**
-Abra o terminal e execute o comando abaixo para instalar o Flask e bibliotecas necessárias:
+### 1️⃣ Preparação do Ambiente
+Ao abrir o terminal (no VS Code ou GitHub Codespaces), instale as dependências necessárias:
 ```bash
 pip install -r requirements.txt
+
+
