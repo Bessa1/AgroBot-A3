@@ -56,12 +56,12 @@ Agora, abra um Novo Terminal (clique no botão + ao lado da aba do terminal atua
 
 python simulador.py
 ```
-Pronto!
+🎉 Pronto!
 
-No Terminal 2, você verá: 📡 Sensor enviando...
+* No Terminal 2, você verá: 📡 Sensor enviando...
 
-No Terminal 1, você verá: 📥 Recebido...
+* No Terminal 1, você verá: 📥 Recebido...
 
-No Telegram, você receberá os alertas quando a temperatura for crítica.
+* No Telegram, você receberá os alertas quando a temperatura for crítica.
 
 
